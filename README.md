@@ -1,14 +1,15 @@
 # kaggle_lab
 Detailed comparison of K-Nearest Neighbors (KNN) and the other five algorithms:
 
-Metric	        K-Nearest Neighbors (KNN)	      Multinomial Naive Bayes	       Decision Tree	    Random Forest	       Support Vector Machine (SVM)	           Logistic Regression
-Accuracy	           0.794	                           0.800	                     0.923             	0.916                   	0.868	                              0.866 
-Precision (Neg)	     0.74	                             0.89                       	0.92	             0.95                   	0.92	                              0.96
-Precision (Pos)	     0.81	                             0.78	                       0.93	              0.90	                    0.85                              	0.84
-Recall (Neg)	       0.55	                             0.43                       	0.84	            0.78	                    0.64	                              0.61
-Recall (Pos)	       0.91	                             0.97	                        0.96	            0.98	                    0.97	                              0.99
-F1-Score (Neg)	     0.63	                             0.58                       	0.87	            0.86	                    0.76	                              0.74
-F1-Score (Pos)	     0.86	                             0.87	                        0.94             	0.94	                    0.91	                              0.91
+| Algorithm               | Accuracy | Precision (Neg/Pos) | Recall (Neg/Pos) | F1-Score (Neg/Pos) |
+|-------------------------|----------|----------------------|-------------------|---------------------|
+| K-Nearest Neighbors     | 0.794    | 0.74 / 0.81         | 0.55 / 0.91      | 0.63 / 0.86         |
+| Multinomial Naive Bayes | 0.800    | 0.89 / 0.78         | 0.43 / 0.97      | 0.58 / 0.87         |
+| Decision Tree           | 0.923    | 0.92 / 0.93         | 0.84 / 0.96      | 0.87 / 0.94         |
+| Random Forest           | 0.916    | 0.95 / 0.90         | 0.78 / 0.98      | 0.86 / 0.94         |
+| Support Vector Machine  | 0.868    | 0.92 / 0.85         | 0.64 / 0.97      | 0.76 / 0.91         |
+| Logistic Regression     | 0.866    | 0.96 / 0.84         | 0.61 / 0.99      | 0.74 / 0.91         |
+
 Key Observations
 1. Accuracy
 KNN achieves an accuracy of 79.4%, which is lower than the other algorithms.
